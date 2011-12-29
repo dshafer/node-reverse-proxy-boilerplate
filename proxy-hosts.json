@@ -1,0 +1,33 @@
+{
+  "hosts" : [
+    {
+      "name" : "svn.drewshafer.com",
+      "destinations" : [{"port" : 81}]
+    },
+    {
+      "name" : "expressmvc.drewshafer.com",
+      "destinations" : [{"port" : 8880}]
+    },
+    {
+      "name" : "expressmvc-dev.drewshafer.com",
+      "destinations" : [{"port" : 3000}]
+    },
+    {
+      "name" : "drewshafer.com",
+      "destinations" : [
+        {
+          "url" : "/dump",
+          "port" : 8888
+        }
+      ]
+    },
+    {
+      "name" : "kristineshafer.com",
+      "destinations" : [{"port" : 81}]
+    },
+    {
+      "name" : "dillonshafer.com",
+      "destinations" : [{"port" : 81}]
+    }
+  ]
+}
